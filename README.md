@@ -54,7 +54,11 @@ Include some screenshots of your travel planner website to provide users with a 
 
 ## Demo
 
-[View Demo](link_to_your_demo)
+[View Demo](https://github.com/TusharTechs/travel-planner/assets/56952465/42d03cfb-c8ac-4e3c-82cb-8317151b728c)
+
+
+
+
 
 
 ## Technologies Used
