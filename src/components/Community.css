@@ -1,0 +1,193 @@
+.tour-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  height: 170px;
+  transform: rotate(-10deg);
+}
+
+.tour-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.user-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.user-image-container {
+  position: relative;
+  margin-right: 5px;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tour-user-image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  bottom: 20px;
+}
+
+.user-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 130px;
+  height: 170px;
+}
+
+.plus-icon {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.background-image {
+  background-image: url("../assets/background.avif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 130px;
+  height: 160px;
+}
+
+.user-1 {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  transform: rotate(10deg);
+}
+
+.user-5 {
+  position: absolute;
+  right: 60px;
+  top: 70px;
+  transform: rotate(2deg);
+}
+
+.user-2 {
+  position: absolute;
+  right: 200px;
+  top: 160px;
+  transform: rotate(20deg);
+}
+
+.user-3 {
+  position: absolute;
+  left: 158px;
+  top: 220px;
+  transform: rotate(5deg);
+}
+
+.user-4 {
+  position: absolute;
+  left: 298px;
+  top: 20px;
+  transform: rotate(8deg);
+}
+
+.yellow-box {
+  background-color: orange;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  transform: rotate(-10deg);
+}
+
+.orange-box {
+  background-color: lightcoral;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.tour-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  height: 170px;
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+}
+
+@media (max-width: 1080px) {
+  .tour-user-image,
+  .plus {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .card-container {
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+
+  .user-card {
+    width: 40%;
+    margin-bottom: 10px;
+    height: auto;
+  }
+
+  .yellow-box {
+    display: none;
+  }
+
+  .user-4 {
+    display: none;
+  }
+
+  .orange-box {
+    left: 100px;
+    top: 100px;
+  }
+}

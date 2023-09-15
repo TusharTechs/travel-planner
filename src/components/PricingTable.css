@@ -1,0 +1,143 @@
+.pricing-table-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.pricing-table-container hr {
+  border: 2px solid orange;
+  width: 2%;
+  margin: 10px auto;
+}
+
+.MuiToggleButton-root {
+  background-color: #fff;
+  border: 2px solid orange;
+  color: #000;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  height: 400px;
+  width: 300px;
+}
+
+.pricing-card h6 {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 60px;
+}
+
+.pricing-card subtitle1 {
+  color: #777;
+  font-weight: bold;
+}
+
+.pricing-card body1 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.features {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.features li {
+  color: #333;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.features svg {
+  margin-right: 5px;
+}
+
+.pricing-card .MuiButton-root {
+  margin-top: 15px;
+  text-transform: none;
+  border: 2px solid orange;
+  color: orange;
+  font-weight: bold;
+}
+
+.pricing-card .MuiButton-root:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+.billing-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  margin-bottom: 50px;
+}
+
+.toggle-button {
+  width: 50px;
+  height: 30px;
+  background-color: #fff !important;
+  box-shadow: 2px 2px 5px rgba(0.3, 0.3, 0.3, 0.3);
+  border-radius: 45%;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.toggle-button-circle {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.toggle-button.active {
+  border-color: orange;
+}
+
+.toggle-button.active .toggle-button-circle {
+  transform: translateX(30px);
+}
+
+.price-background {
+  background-color: #f8ebeb;
+  padding: 20px 0 40px 0;
+}
+
+@media (max-width: 720px) {
+  .pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+}

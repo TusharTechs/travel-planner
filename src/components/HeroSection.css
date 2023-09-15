@@ -1,0 +1,46 @@
+.hero-container {
+  background: #efe6dd;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.orange-line {
+  border-bottom: 2px solid orange;
+  margin-bottom: 20px;
+}
+
+.app-links {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.app-link {
+  width: 180px;
+  margin-right: 10px;
+}
+
+.bottom-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 36px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+}
+
+@media (max-width: 480px) {
+  .app-links {
+    display: flex;
+    flex-direction: column;
+  }
+}
