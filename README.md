@@ -24,6 +24,7 @@ Include some screenshots of your travel planner website to provide users with a 
   - The footer section displays various headings and FAQ-related content.
 
 - **Mobile View:**
+
 ![Screenshot_68](https://github.com/TusharTechs/travel-planner/assets/56952465/88601890-569c-46f6-9b3d-6c6d00fc1151)
 
 ![Screenshot_69](https://github.com/TusharTechs/travel-planner/assets/56952465/3fc01758-b7e3-48ba-bcad-96ec5ac70350)
