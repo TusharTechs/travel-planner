@@ -10,7 +10,7 @@ import FooterNavbar from "./FooterNavbar";
 const Footer = () => {
   return (
     <footer id="reviews-section">
-        {/* Section 1: Travel */}
+      {/* Section 1: Travel */}
       <Grid item xs={12} md={6}>
         <Box
           display="flex"
@@ -18,28 +18,34 @@ const Footer = () => {
           alignItems="center"
           bgcolor="#ff4f0e"
           width="80%"
+          height="auto"
           margin="0 auto"
           borderRadius="20px"
           padding="20px"
           marginTop="50px"
           marginBottom="40px"
+          className="section-1"
         >
-          <Typography
-            variant="h4"
-            style={{ color: "#FFF", marginBottom: "10px", marginTop: "40px" }}
-          >
-            Download the Travellers Community App Now!
-          </Typography>
-          <Typography variant="body2" style={{ color: "#FFF" }}>
-            Be the first one to explore one of the best travel applications
-          </Typography>
-          <Box display="flex" alignItems="center">
+          <div className="footer-border">
+            <Typography
+              variant="h4"
+              style={{ color: "#FFF", marginBottom: "10px", marginTop: "40px" }}
+            >
+              Download the Travellers Community App Now!
+            </Typography>
+            <Typography variant="body2" style={{ color: "#FFF" }}>
+              Be the first one to explore one of the best travel applications
+            </Typography>
+          </div>
+          <div className="icon-row">
             <Link href="#" underline="none">
               <img
                 src={Appstore}
                 alt="Get it on App Store"
                 width="150px"
                 height="60px"
+                style={{ marginTop: "120px" }}
+                className="appstore-icon"
               />
             </Link>
             <Link href="#" underline="none">
@@ -48,12 +54,13 @@ const Footer = () => {
                 alt="Get it on Google Play"
                 width="160px"
                 height="120px"
+                style={{ marginTop: "90px" }}
+                className="googleplay-icon"
               />
             </Link>
-          </Box>
+          </div>
         </Box>
       </Grid>
-
       <div className="list-container">
         {/* Section 2: Company */}
         <Grid item xs={12} md={2} style={{ marginTop: "20px" }}>
