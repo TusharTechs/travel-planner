@@ -3,9 +3,52 @@
   padding: 20px;
 }
 
+.section-1 {
+  background-color: #ff4f0e;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px auto 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+  transition-duration: 600ms;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.section-1:hover {
+  transform: perspective(500px) translateZ(30px);
+  border: 2px solid orange;
+}
+
+.footer-border {
+  background-color: #d26d6d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition-delay: 0.3s;
+  transition-duration: 600ms;
+}
+
+.section-1:hover .footer-border {
+  transform: perspective(500px) translateZ(10px);
+  background-color: orange;
+}
+
 .icon {
   font-size: 20px;
   margin-right: 10px;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 
 .ratingContainer {
@@ -74,5 +117,20 @@ li {
 @media (max-width: 720px) {
   .subscribe-container {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon-row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+  }
+
+  .googleplay-icon {
+    margin-bottom: -100px;
+    position: relative;
+    bottom: 100px;
+    right: 5px;
   }
 }
